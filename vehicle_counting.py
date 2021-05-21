@@ -18,7 +18,7 @@ outputlayers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 colors= np.random.uniform(0,255,size=(len(classes),3))
 
 #loading image
-cap=cv2.VideoCapture("TrafficVideo.mp4") 
+cap=cv2.VideoCapture("Video_file_location") 
 font = cv2.FONT_HERSHEY_PLAIN
 starting_time= time.time()
 frame_id = 0
