@@ -18,7 +18,7 @@ outputlayers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
 colors= np.random.uniform(0,255,size=(len(classes),3))
 
-cap=cv2.imread('traffic.jpg')
+cap=cv2.imread('image_location')
 height,width,channels=cap.shape
 
 frame=cap
